@@ -1,0 +1,6 @@
+# FROM 系统镜像，这段代码是基础必须要的
+FROM centos:7
+# 编辑人，作者信息
+MAINTAINER iamsee
+VOLUME /appVolume
+COPY ./shell.sh /root/
